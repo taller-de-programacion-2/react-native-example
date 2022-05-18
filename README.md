@@ -1,3 +1,9 @@
+# 3-Async Storage
+Settings: usamos async storage para guardar un dato.
+native no es un browser: para poder utilizar localStorage o sessionStorage, u otro elementos particulares del browser es necesario instalar librerias adicionales.
+"@react-native-async-storage/async-storage"
+
+
 # 2-Environment
 
 app.json -> app.config.js: para poder configurar los extras.

@@ -17,7 +17,6 @@ const AppContainer = () => (
       <Stack.Screen
         name="Profile"
         component={Profile}
-        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   </NavigationContainer>
