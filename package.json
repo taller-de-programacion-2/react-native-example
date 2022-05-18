@@ -12,8 +12,12 @@
   "dependencies": {
     "@react-navigation/native": "^6.0.10",
     "@react-navigation/native-stack": "^6.6.2",
+    "axios": "^1.4.0",
     "expo": "^48.0.0",
+    "expo-constants": "^14.2.1",
+    "expo-device": "^5.2.1",
     "expo-status-bar": "~1.4.4",
+    "expo-updates": "^0.16.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.71.7",
@@ -22,7 +26,8 @@
     "react-native-web": "~0.18.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "dotenv-defaults": "^5.0.2"
   },
   "private": true
 }
