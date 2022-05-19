@@ -7,15 +7,17 @@ export default function Home({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text>Welcome Home!</Text>
-      <Button
-        onPress={() => navigation.navigate("Profile", { id: userId })}
-        title="Profile"
-      />
-      <Button
-        onPress={() => navigation.navigate("Settings")}
-        title="Settings"
-      />
+      <View style={styles.header}>
+        <Text>Welcome Home!</Text>
+        <Button
+          onPress={() => navigation.navigate("Profile", { id: userId })}
+          title="Profile"
+        />
+        <Button
+          onPress={() => navigation.navigate("Settings")}
+          title="Settings"
+        />
+      </View>
       <Grid />
     </View>
   );
@@ -28,4 +30,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  header: {
+    flexDirection: "row",
+    gap: 8,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 16
+  }
 });

@@ -3,7 +3,7 @@ import Constants from "expo-constants";
 import axios from "axios";
 
 // Release channels: https://docs.expo.dev/distribution/release-channels/
-if (Constants.isDevice && Update.releaseChannel.startsWith("prod")) {
+if (Constants.isDevice && Updates.releaseChannel.startsWith("prod")) {
   console.disableYellowBox = true;
 }
 
