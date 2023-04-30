@@ -3,7 +3,7 @@ import { Button, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 // SafeAreaView: Permite posicionar el contenido 
-// sin pisar la status-bar, notches, etc.
+// sin pisar la status-bar, notches, etc. (en ios!)
 const Profile = ({ navigation }) => {
   return (
     <SafeAreaView>
